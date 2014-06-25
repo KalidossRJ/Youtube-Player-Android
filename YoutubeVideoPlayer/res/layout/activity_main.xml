@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6E6E6E"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/top_title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#81BEF7"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/title_Text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="YOUTUBE VIDEO"
+            android:textColor="#DF01D7"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/top_title_layout"
+        android:orientation="vertical"
+        android:weightSum="2" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.20"
+            android:orientation="vertical"
+            android:padding="5dp" >
+
+            <com.google.android.youtube.player.YouTubePlayerView
+                android:id="@+id/youtubeplayerview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight=".80"
+            android:background="#A9E2F3"
+            android:orientation="vertical" >
+
+            <ScrollView
+                android:id="@+id/Document_ScrollView1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:background="#FFFFFF"
+                android:fillViewport="true"
+                android:padding="5dp" >
+
+                <LinearLayout
+                    android:id="@+id/MiddleLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="5dp" >
+
+                    <TextView
+                        android:id="@+id/videodesc_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Tamil period-drama Kochadaiiyaan, starring superstar Rajinikanth, has been made at a budget of Rs.125 crore, says its producer J Murali Manohar. He also says that his film should not be compared with Avatar or Tin Tin because they were made at huge budgets." />
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
