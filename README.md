@@ -4,4 +4,4 @@ The YouTube Android Player API enables you to incorporate video playback functio
 Go to this blog refer fully http://kalisandroid.blogspot.in/2014/06/youtube-player-in-android.html
 
 
-<a href="http://www.technotalkative.com/android-select-multiple-photos-from-gallery/"><img title="Select multiple photos from gallery" src="http://www.technotalkative.com/wp-content/uploads/2012/10/technotalkative-select-multiple-photos-from-gallery-2.png" alt="TechnoTalkative - select multiple photos from gallery" />
+<a href="http://www.technotalkative.com/android-select-multiple-photos-from-gallery/"><img title="Select multiple photos from gallery" src="https://www.dropbox.com/s/5g7c3slg26q2tlo/1.png" alt="TechnoTalkative - select multiple photos from gallery" />
